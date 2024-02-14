@@ -1,7 +1,7 @@
-fastapi
+fastapi[all]
+uvicorn[standard]
 langchain==0.0.352
 langchain-openai==0.0.5
 langchain-community
 openai==1.12.0
-uvicorn
 unstructured[pdf]
