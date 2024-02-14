@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 import requests
 import json
@@ -20,7 +20,7 @@ from langchain.memory import ConversationBufferWindowMemory
 
 
 app = FastAPI()
-load_dotenv()
+# load_dotenv()
 
 # #test our api key
 if os.getenv("OPENAI_API_KEY") is None or os.getenv("OPENAI_API_KEY") != "":
